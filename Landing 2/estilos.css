@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boton{
+    border-radius: 8px;
+    padding: 18px 18px;
+    background-color:#F40000
+   
+}
+
+body{
+    
+    font-family: 'Libre Baskerville', serif;
+}
+.hero{
+    background-image: url(img/2.png);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.textos-hero{
+    height: 500px;
+    color:#F40000;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+    justify-content: center;
+    padding: 15%;
+   }
+
+.textos-hero h1{
+    font-size: 80px;
+    font-family: 'Six Caps', sans-serif;
+    
+}
+.concepto {
+    font-size: 20px!important;  
+}
+.contenedor-title{
+    display: flex;
+    justify-content: center;
+
+}
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.textos-hero a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15 px;
+    background:#0D0D0D ;
+    border: 8px;
+    color:#fff;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+/*Estilos generales*/
+
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 80px 0px;
+    
+}
+.contedor-1{
+    padding: 45px 0;
+   
+}
+.contenedor-2{
+    padding: 3px 0;
+    
+}
+.contenedor-3{
+    padding: 45px 0;
+}
+.contenedor-4{
+    padding: 45px 0;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/*section*/ 
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.website.contenedor-textos-main{
+    width: 40%;
+}
+.parrafo{
+    text-align:justify ;
+    margin-bottom: 20px;
+}
+.cta{
+    display: inline-block;
+    text-decoration:none ;
+    background-color:#F40000 ;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 780px;
+    margin-bottom: 25px;
+}
+
+.cta-mas{
+    display: inline-block;
+    text-decoration:none ;
+    background-color:black ;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 780px;
+    margin-bottom: 20px;
+}
+.cta-mas1{
+    display: inline-block;
+    text-decoration:none ;
+    background-color:black ;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 780px;
+    margin-bottom: 20px;
+}
+
+
+.cta-inicio{
+    display: inline-block;
+    text-decoration:none ;
+    background-color:#F40000 ;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+/* Info */
+.info-1{
+    padding: 45px 0;
+    background:#303030;
+    color: #FFFFFF;
+    width: 100%;
+    height: 410px ;
+    margin-top: 0px;
+   
+
+}
+.info-2{
+    padding: 45px 0;
+    background:#F40000;
+    color:#FFFFFF;
+    width: 100%;
+    height:345px ;
+   
+}
+.info-3{
+    background:#303030;
+    color: #FFFFFF;
+    width: 100%;
+    height:670px ;
+}
+.info-4{
+    background:#F40000;
+    color: rgb(250, 248, 248);
+    width: 100%;
+    height:500px ;
+}
+
+.info-inicios{
+    text-align: justify;
+}
+
+.title{
+    margin-bottom: 70px;
+    font-size: 35px
+}
+
+.contenedor-copy{
+    background: black;  
+}
+
+
+@media screen and (max-width: 1045px) {
+    .cta-mas1 {
+        display: inline-block;
+        text-decoration: none;
+        background-color: black;
+        padding: 12px 15px;
+        border-radius: 8px;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 780px;
+        margin-bottom: 20px;
+    }
+
+    .cta {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #F40000;
+        padding: 12px 15px;
+        border-radius: 8px;
+        color: #fff;
+        margin-top: -10px;
+        margin-left: 780px;
+        margin-bottom: 25px;
+    }
+
+
+  }
+@media screen and (max-width: 800px){
+.textos-hero h1 {
+    text-align: center;
+    font-size: 50px;
+}
+    /* Estilos generales */
+    .titulo{
+    font-size: 35px;
+
+}
+
+.titulo.left{
+    text-align:center ;
+}
+.info p{
+    text-align:center ;
+}
+
+/* section */
+.website{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.contenedor-img{
+    width: 100%;
+}
+
+.website.contenedor-textos-main{
+    width: 100%;
+}
+
+
+}
+Html {
+    scroll-behavior: smooth;
+}
+
+
