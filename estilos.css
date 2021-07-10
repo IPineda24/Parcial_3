@@ -230,6 +230,14 @@ p{
 }
     @media screen and (max-width: 992px){
 
+        .espacio {
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-bottom: 0px;
+            background: black;
+            margin-top: 80px;
+        }
+
         .contenedor-img {
             display: inline-block;
             flex: auto;
